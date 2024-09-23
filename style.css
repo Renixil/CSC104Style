@@ -1,139 +1,135 @@
-body{
-	width: 100vw;
-	height: 100vh;
-	background-image: url("1351766.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	filter: contrast(130%);
+body {
+	width: 100vw; /* Width Fullview */
+	height: 100vh; /* Height Fullview */
+	background-image: url("1351766.png"); /* Wooden American Background image */
+	background-size: cover; /* Size correction for the background image, covers the whole area */
+	background-repeat: no-repeat; /* Prevent background image from repeating in a case where it causes the image to tile */
+	filter: contrast(130%); /* Increase contrast of the background so the font stands out more*/
 }
 
-h1{
-	color: #faf6f6;
-	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(133, 94, 10);
-	font-family: sans-serif;
-	letter-spacing: .2rem;
-	border: 12px solid #412706;
-	text-align: center;
+h1 {
+	color: #faf6f6; /* Light text color to contrast with the background */
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(133, 94, 10); /* Multicolored text shadow */
+	font-family: sans-serif; /* Sans-serif font for a nice professional look*/
+	letter-spacing: .2rem; /* Space between letters */
+	border: 12px solid #412706; /* Brown border around the heading */
+	text-align: center; /* Center-align the heading text */
 }
 
-h2{
-	color: #faf6f6;
-	text-shadow: 1px 3px 2px #412706;
-	font-family: Georgia, serif;
-	animation: myAnim1 2s ease 0s 1 normal forwards;
-	
+h2 {
+	color: #faf6f6; /* Light text color to contrast with the background */
+	text-shadow: 1px 3px 2px #412706; /* Dark shadow under the text */
+	font-family: Georgia, serif; /* Georgia font, a serif style */
+	animation: myAnim1 2s ease 0s 1 normal forwards; /* Added custom animation to make it cooler */
 }
+
+/* Keyframe animation for h2 */
 @keyframes myAnim1 {
 	0% {
 		animation-timing-function: ease-in;
-		opacity: 0;
-		transform: translateY(-250px);
+		opacity: 0; /* Start invisible */
+		transform: translateY(-250px); /* Start off-screen above */
 	}
-
 	38% {
 		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: translateY(0);
+		opacity: 1; /* Fade in */
+		transform: translateY(0); /* Move to original position */
 	}
-
 	55% {
 		animation-timing-function: ease-in;
-		transform: translateY(-65px);
+		transform: translateY(-65px); /* Bounce up slightly */
 	}
-
 	72% {
 		animation-timing-function: ease-out;
-		transform: translateY(0);
+		transform: translateY(0); /* Settle back down */
 	}
-
 	81% {
 		animation-timing-function: ease-in;
-		transform: translateY(-28px);
+		transform: translateY(-28px); /* Smaller bounce */
 	}
-
 	90% {
 		animation-timing-function: ease-out;
-		transform: translateY(0);
+		transform: translateY(0); /* Settle */
 	}
-
 	95% {
 		animation-timing-function: ease-in;
-		transform: translateY(-8px);
+		transform: translateY(-8px); /* Final slight bounce */
 	}
-
 	100% {
 		animation-timing-function: ease-out;
-		transform: translateY(0);
+		transform: translateY(0); /* Rest at original position */
 	}
 }
-h3{
-	color: #faf6f6;
-	text-shadow: rgba(255, 204, 0, 0.651) 1px 0 10px;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	letter-spacing: .2rem;
-	animation: myAnim 2s ease 0s 1 normal forwards;
+
+/* Heading 3 styles */
+h3 {
+	color: #faf6f6; /* Light text color to contrast with the background */
+	text-shadow: rgba(255, 204, 0, 0.651) 1px 0 10px; /* Golden glow text shadow, works better for a southwest theme*/
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Bold, narrow font style */
+	letter-spacing: .2rem; /* Space between letters */
+	animation: myAnim 2s ease 0s 1 normal forwards; /* Apply my second custom animation myAnim */
 }
+
+/* Keyframe animation for h3 like h2's */
 @keyframes myAnim {
 	0% {
 		animation-timing-function: ease-in;
-		opacity: 0;
-		transform: translateY(-250px);
+		opacity: 0; /* Start invisible */
+		transform: translateY(-250px); /* Start off-screen above */
 	}
-
 	38% {
 		animation-timing-function: ease-out;
-		opacity: 1;
-		transform: translateY(0);
+		opacity: 1; /* Fade in */
+		transform: translateY(0); /* Move to original position */
 	}
-
 	55% {
 		animation-timing-function: ease-in;
-		transform: translateY(-65px);
+		transform: translateY(-65px); /* Bounce up slightly */
 	}
-
 	72% {
 		animation-timing-function: ease-out;
-		transform: translateY(0);
+		transform: translateY(0); /* Settle back down */
 	}
-
 	81% {
 		animation-timing-function: ease-in;
-		transform: translateY(-28px);
+		transform: translateY(-28px); /* Smaller bounce */
 	}
-
 	90% {
 		animation-timing-function: ease-out;
-		transform: translateY(0);
+		transform: translateY(0); /* Settle */
 	}
-
 	95% {
 		animation-timing-function: ease-in;
-		transform: translateY(-8px);
+		transform: translateY(-8px); /* Final slight bounce */
 	}
-
 	100% {
 		animation-timing-function: ease-out;
-		transform: translateY(0);
+		transform: translateY(0); /* Rest at original position */
 	}
 }
-p{
-	color: #faf6f6;
-	text-shadow: rgb(20, 20, 20) 1px 0 10px;
-	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-	letter-spacing: .2rem;
-	animation: myAnim 2s ease 0s 1 normal forwards;
+
+/* Paragraph styles */
+p {
+	color: #faf6f6; /* Light text color */
+	text-shadow: rgb(20, 20, 20) 1px 0 10px; /* Darker shadow effect for different styles rather than just one boring similar page*/
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Bold and narrow font style */
+	letter-spacing: .2rem; /* Space between letters */
+	animation: myAnim 2s ease 0s 1 normal forwards; /* Apply custom animation myAnim */
 }
+
+/* Keyframe animation for paragraphs */
 @keyframes myAnim {
 	0% {
-		opacity: 0;
-		transform: scale(1.4);
+		opacity: 0; /* Start invisible */
+		transform: scale(1.4); /* Start zoomed in */
 	}
-
 	100% {
-		opacity: 1;
-		transform: scale(1);
+		opacity: 1; /* Fade in */
+		transform: scale(1); /* Return to normal size */
 	}
 }
-a:visited{
-	color: rgb(255, 255, 255);
+
+/* Visited link styles */
+a:visited {
+	color: rgb(255, 255, 255); /* White color for visited links */
 }
