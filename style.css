@@ -1,0 +1,139 @@
+body{
+	width: 100vw;
+	height: 100vh;
+	background-image: url("1351766.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	filter: contrast(130%);
+}
+
+h1{
+	color: #faf6f6;
+	text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em rgb(133, 94, 10);
+	font-family: sans-serif;
+	letter-spacing: .2rem;
+	border: 12px solid #412706;
+	text-align: center;
+}
+
+h2{
+	color: #faf6f6;
+	text-shadow: 1px 3px 2px #412706;
+	font-family: Georgia, serif;
+	animation: myAnim1 2s ease 0s 1 normal forwards;
+	
+}
+@keyframes myAnim1 {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+h3{
+	color: #faf6f6;
+	text-shadow: rgba(255, 204, 0, 0.651) 1px 0 10px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: .2rem;
+	animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		animation-timing-function: ease-in;
+		opacity: 0;
+		transform: translateY(-250px);
+	}
+
+	38% {
+		animation-timing-function: ease-out;
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	55% {
+		animation-timing-function: ease-in;
+		transform: translateY(-65px);
+	}
+
+	72% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	81% {
+		animation-timing-function: ease-in;
+		transform: translateY(-28px);
+	}
+
+	90% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+
+	95% {
+		animation-timing-function: ease-in;
+		transform: translateY(-8px);
+	}
+
+	100% {
+		animation-timing-function: ease-out;
+		transform: translateY(0);
+	}
+}
+p{
+	color: #faf6f6;
+	text-shadow: rgb(20, 20, 20) 1px 0 10px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	letter-spacing: .2rem;
+	animation: myAnim 2s ease 0s 1 normal forwards;
+}
+@keyframes myAnim {
+	0% {
+		opacity: 0;
+		transform: scale(1.4);
+	}
+
+	100% {
+		opacity: 1;
+		transform: scale(1);
+	}
+}
+a:visited{
+	color: rgb(255, 255, 255);
+}
