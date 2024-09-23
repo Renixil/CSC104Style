@@ -5,3 +5,5 @@ Description: This webpage contains a responsive design with styled headings, ani
 HTML Page Name: constitution.html
 
 CSS Page Name: style.css
+
+Credits: robokoboto(Wallpaper Design)
